@@ -1,0 +1,1 @@
+ALTER TABLE [dbo].[tblOptionParameters]  WITH CHECK ADD CHECK  (([riskFreeRate]>(0)))
